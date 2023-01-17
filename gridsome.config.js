@@ -6,5 +6,9 @@
 
 module.exports = {
   siteName: "ImprovedPrivacy",
-  plugins: [],
+  plugins: [
+    {
+      use: 'gridsome-plugin-typescript',
+    }
+  ],
 };
